@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-16_19-38-10",
+            "content": "@@ -1,33 +0,0 @@\n-print(%22minha toalha %C3%A9 uma zebra%22)\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-09-16_19-39-24",
+            "content": "@@ -1,225 +1,33 @@\n-%0A%0A    class Towel:%0A        def __init__(self):%0A            self.color = %22red%22%0A            self.size = %22p%22%0A            self.wetness = 0%0A%0A    towel = Towel()%0A    print(towel.color)%0A    print(towel.size)%0A    print(towel.wetness\n+print(%22minha toalha %C3%A9 uma zebra%22\n )\n",
+            "lines": "1"
+        },
+        {
+            "label": "2025-09-16_20-09-19",
+            "content": "@@ -1,10 +1,14 @@\n %0A%0A\n+    \n class To\n@@ -12,16 +12,20 @@\n  Towel:%0A\n+    \n     def \n@@ -41,47 +41,15 @@\n self\n-, color: str, size: str): # construtor%0A\n+):%0A    \n     \n@@ -69,26 +69,18 @@\n r = \n-color # atributos%0A\n+%22red%22%0A    \n     \n@@ -99,13 +99,16 @@\n e = \n-size%0A\n+%22p%22%0A    \n     \n@@ -132,159 +132,33 @@\n = 0%0A\n-    def __str__(self):%0A        return f%22color: %7Bself.color%7D, tam: %7Bself.size%7D, umi: %7Bself.wetness%7D%22%0A# refer%C3%AAncia%0Atowel = Towel(%22green%22, %22G%22) # objetos%0A\n+%0A    towel = Towel()%0A    \n prin\n@@ -172,16 +172,20 @@\n .color)%0A\n+    \n print(to\n@@ -194,16 +194,20 @@\n l.size)%0A\n+    \n print(to\n",
+            "lines": "12"
+        },
+        {
+            "label": "2025-09-16_20-23-42",
+            "content": "@@ -369,18 +369,4 @@\n ess)\n-%0A%0Aprint(towel)\n",
+            "lines": "14"
+        },
+        {
+            "label": "2025-09-16_20-24-02",
+            "content": "\n\nclass Towel:\n    def __init__(self, color: str, size: str): # construtor\n        self.color = color # atributos\n        self.size = size\n        self.wetness = 0\n    def __str__(self):\n        return f\"color: {self.color}, tam: {self.size}, umi: {self.wetness}\"\n# refer\u00eancia\ntowel = Towel(\"green\", \"G\") # objetos\nprint(towel.color)\nprint(towel.size)\nprint(towel.wetness)\n\nprint(towel)",
+            "lines": "16"
+        }
+    ]
+}

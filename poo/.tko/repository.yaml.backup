@@ -10,6 +10,7 @@ expanded:
 - bloco_a-práticas-com-o-git
 - campanha-principal
 - bloco_b-primeiras-classes
+- bloco_a-treino-de-algoritmos
 tasks: {}
 flags:
   quests: 0
@@ -17,4 +18,4 @@ flags:
   tasks: 0
   graph: 0
   xray: 0
-index: toalha
+index: git_pratica

@@ -11,11 +11,17 @@ expanded:
 - campanha-principal
 - bloco_b-primeiras-classes
 - bloco_a-treino-de-algoritmos
-tasks: {}
+tasks:
+  toalha: '{rate:70, human:tirei_algumas_duvidas_com_samyra_e_myllene, guide:pratiquei_grande_parte_nessa_atividade_para_introduzir_na_atividade_enxugar,
+    alone:6, study:120}'
+  animal: '{rate:100, iagen:utilizei_chatgpt_por_onde_consegui_encontrar_erros_de_sintaxe_como_os_parenteses_aps_declarar_um_metodo,
+    alone:8, study:200}'
+  enxugar: '{rate:100, iagen:utilizei_chatgpt_para_me_explicar_algumas_linhas_do_codigo_e_alguns_erros_de_digitaco__como_os_parenteses_apos_declarar_um_metodo_,
+    alone:8, study:180}'
 flags:
   quests: 0
   tracks: 0
   tasks: 0
-  graph: 0
+  graph: 1
   xray: 0
-index: git_pratica
+index: animal

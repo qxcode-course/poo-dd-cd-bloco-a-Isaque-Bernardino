@@ -1,0 +1,349 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-23_22-34-39",
+            "content": "@@ -527,20 +527,16 @@\n it(%22 %22)%0A\n-    \n     if a\n@@ -560,20 +560,16 @@\n         \n-    \n break%0A  \n@@ -566,28 +566,24 @@\n   break%0A    \n-   \n- \n elif args%5B0%5D\n@@ -602,20 +602,16 @@\n         \n-    \n species \n@@ -628,20 +628,16 @@\n         \n- \n-   \n sound = \n@@ -648,28 +648,24 @@\n %5B2%5D%0A        \n-  \n-  \n animal = ani\n@@ -684,20 +684,16 @@\n  sound)%0A\n-    \n     elif\n@@ -716,28 +716,24 @@\n w%22:%0A        \n-    \n print(animal\n@@ -738,20 +738,16 @@\n al)%0A    \n- \n-   \n elif arg\n@@ -770,20 +770,16 @@\n         \n-   \n- \n amount =\n@@ -792,20 +792,16 @@\n rgs%5B1%5D)%0A\n-    \n         \n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-09-23_22-35-21",
+            "content": "@@ -405,16 +405,24 @@\n   animal\n+: Animal\n  = Anima\n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-09-23_22-39-35",
+            "content": "@@ -159,17 +159,17 @@\n     def \n-g\n+G\n row(self\n@@ -673,25 +673,25 @@\n    animal = \n-A\n+a\n nimal(specie\n@@ -843,17 +843,17 @@\n  animal.\n-g\n+G\n row(amou\n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-09-23_22-42-25",
+            "content": "@@ -375,16 +375,17 @@\n f.sound%7D\n+:\n %22%0A    %0Ad\n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-09-23_22-43-04",
+            "content": "@@ -272,17 +272,16 @@\n %22warning\n-:\n  %7Bself.s\n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-09-23_22-43-23",
+            "content": "@@ -812,20 +812,14 @@\n ount\n-: int\n  = int\n- \n (arg\n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-09-23_22-44-47",
+            "content": "@@ -302,33 +302,8 @@\n u%22)%0A\n-            self.age = 4%0A\n     \n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-09-23_22-46-25",
+            "content": "@@ -529,19 +529,8 @@\n args\n-: list%5Bstr%5D\n  = l\n",
+            "lines": "32"
+        },
+        {
+            "label": "2025-09-23_22-51-16",
+            "content": "@@ -327,145 +327,8 @@\n = 4%0A\n-    def makeSound(self) -%3E None:%0A        if self.age == 0:%0A            print(%22---%22)%0A        elif self.age %3E= 4:%0A            print(%22RIP%22)%0A\n     \n",
+            "lines": "32"
+        },
+        {
+            "label": "2025-09-23_22-57-58",
+            "content": "@@ -342,24 +342,32 @@\n eSound(self)\n+ -%3E None\n :%0A        if\n@@ -1039,75 +1039,8 @@\n nt)%0A\n-        elif args%5B0%5D == %22noise%22:%0A            print(self.makeSound)%0A\n     \n",
+            "lines": "37"
+        },
+        {
+            "label": "2025-09-24_00-11-11",
+            "content": "@@ -1078,16 +1078,30 @@\n   print(\n+self.makeSound\n )%0A    %0Am\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-24_00-11-22",
+            "content": "@@ -346,24 +346,16 @@\n nd(self)\n- -%3E None\n :%0A      \n@@ -1082,24 +1082,8 @@\n int(\n-animal.makeSound\n )%0A  \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-24_00-14-05",
+            "content": "@@ -371,32 +371,8 @@\n  if \n-args%5B1%5D ==%0A        elif \n self\n@@ -949,17 +949,17 @@\n if args%5B\n-1\n+0\n %5D == %22gr\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-24_00-16-38",
+            "content": "@@ -359,32 +359,56 @@\n one:%0A        if \n+args%5B1%5D ==%0A        elif \n self.age == 0:%0A \n",
+            "lines": "40"
+        },
+        {
+            "label": "2025-09-24_00-17-04",
+            "content": "@@ -999,17 +999,17 @@\n t (args%5B\n-2\n+1\n %5D)%0A     \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-24_00-17-58",
+            "content": "@@ -1003,9 +1003,9 @@\n rgs%5B\n-3\n+2\n %5D)%0A \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-24_00-19-07",
+            "content": "@@ -999,17 +999,17 @@\n t (args%5B\n-1\n+3\n %5D)%0A     \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-24_00-19-15",
+            "content": "@@ -949,17 +949,17 @@\n if args%5B\n-3\n+1\n %5D == %22gr\n@@ -1003,9 +1003,9 @@\n rgs%5B\n-3\n+1\n %5D)%0A \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-17-37",
+            "content": "@@ -945,25 +945,25 @@\n   elif args%5B\n-0\n+3\n %5D == %22grow%22:\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-17-47",
+            "content": "@@ -949,17 +949,17 @@\n if args%5B\n-1\n+0\n %5D == %22gr\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-17-56",
+            "content": "@@ -949,17 +949,17 @@\n if args%5B\n-2\n+1\n %5D == %22gr\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-18-04",
+            "content": "@@ -949,17 +949,17 @@\n if args%5B\n-3\n+2\n %5D == %22gr\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-18-14",
+            "content": "@@ -945,25 +945,25 @@\n   elif args%5B\n-0\n+3\n %5D == %22grow%22:\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-18-57",
+            "content": "@@ -999,17 +999,17 @@\n t (args%5B\n-2\n+3\n %5D)%0A     \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-22-08",
+            "content": "@@ -949,17 +949,17 @@\n if args%5B\n-2\n+0\n %5D == %22gr\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-22-13",
+            "content": "@@ -949,17 +949,17 @@\n if args%5B\n-1\n+2\n %5D == %22gr\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-22-17",
+            "content": "@@ -945,25 +945,25 @@\n   elif args%5B\n-0\n+1\n %5D == %22grow%22:\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-22-59",
+            "content": "@@ -999,17 +999,17 @@\n t (args%5B\n-1\n+2\n %5D)%0A     \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-24-07",
+            "content": "@@ -1053,17 +1053,17 @@\n if args%5B\n-2\n+0\n %5D == %22no\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-26-05",
+            "content": "@@ -1053,17 +1053,17 @@\n if args%5B\n-1\n+2\n %5D == %22no\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-26-11",
+            "content": "@@ -1057,9 +1057,9 @@\n rgs%5B\n-3\n+1\n %5D ==\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-26-17",
+            "content": "@@ -1049,25 +1049,25 @@\n   elif args%5B\n-0\n+3\n %5D == %22noise%22\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-26-49",
+            "content": "@@ -1076,24 +1076,30 @@\n             \n+print(\n animal.makeS\n@@ -1098,24 +1098,25 @@\n al.makeSound\n+)\n %0A    %0Amain()\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-27-27",
+            "content": "@@ -1053,17 +1053,17 @@\n if args%5B\n-2\n+0\n %5D == %22no\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-28-39",
+            "content": "@@ -1003,9 +1003,9 @@\n rgs%5B\n-3\n+1\n %5D)%0A \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-29-11",
+            "content": "@@ -999,17 +999,17 @@\n t (args%5B\n-1\n+3\n %5D)%0A     \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-29-27",
+            "content": "@@ -1049,25 +1049,25 @@\n   elif args%5B\n-0\n+2\n %5D == %22noise%22\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-29-36",
+            "content": "@@ -321,17 +321,17 @@\n f.age = \n-0\n+4\n %0A    def\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-31-19",
+            "content": "@@ -310,16 +310,28 @@\n         \n+self.age = 0\n %0A    def\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-32-02",
+            "content": "@@ -310,51 +310,12 @@\n     \n-elif self.age %3E 4:%0A            self.age = 4\n+    \n %0A   \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-34-43",
+            "content": "@@ -313,33 +313,32 @@\n  elif self.age %3E\n-=\n  4:%0A            \n",
+            "lines": "40"
+        },
+        {
+            "label": "2025-09-27_16-35-06",
+            "content": "@@ -321,16 +321,17 @@\n lf.age %3E\n+=\n  4:%0A    \n@@ -342,16 +342,20 @@\n     \n-print(4)\n+self.age = 4\n %0A   \n@@ -1020,16 +1020,17 @@\n nt = int\n+ \n (args%5B1%5D\n",
+            "lines": "40"
+        },
+        {
+            "label": "2025-09-27_16-36-27",
+            "content": "@@ -298,16 +298,63 @@\n orreu%22)%0A\n+        elif self.age %3E 4:%0A            print(4)\n %0A    def\n",
+            "lines": "40"
+        },
+        {
+            "label": "2025-09-27_16-37-46",
+            "content": "@@ -302,68 +302,8 @@\n u%22)%0A\n-        elif self.age + amount %3E 4:%0A            self.age = 4\n %0A   \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-38-28",
+            "content": "@@ -363,53 +363,8 @@\n = 4%0A\n-        else:%0A            self.age += amount%0A\n     \n",
+            "lines": "40"
+        },
+        {
+            "label": "2025-09-27_16-39-40",
+            "content": "@@ -367,16 +367,52 @@\n         \n+else:%0A            self.age += amount\n %0A    def\n",
+            "lines": "42"
+        },
+        {
+            "label": "2025-09-27_16-39-50",
+            "content": "@@ -249,33 +249,8 @@\n  4:%0A\n-            self.age = 4%0A\n     \n@@ -298,16 +298,77 @@\n orreu%22)%0A\n+        elif self.age + amount %3E 4:%0A            self.age = 4%0A\n         \n",
+            "lines": "41"
+        },
+        {
+            "label": "2025-09-27_16-41-09",
+            "content": "@@ -237,32 +237,57 @@\n  self.age %3E= 4:%0A\n+            self.age = 4%0A\n             prin\n",
+            "lines": "40"
+        },
+        {
+            "label": "2025-09-27_16-41-20",
+            "content": "@@ -310,94 +310,8 @@\n     \n-    self.age = 4   # trava no m%C3%A1ximo em 4%0A        else:%0A            self.age += amount\n %0A   \n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-27_16-42-18",
+            "content": "@@ -322,16 +322,41 @@\n .age = 4\n+   # trava no m%C3%A1ximo em 4\n %0A       \n",
+            "lines": "41"
+        },
+        {
+            "label": "2025-09-27_16-42-57",
+            "content": "@@ -243,9 +243,9 @@\n age \n-%3C\n+%3E\n = 4:\n",
+            "lines": "41"
+        },
+        {
+            "label": "2025-09-27_16-45-14",
+            "content": "@@ -231,33 +231,33 @@\n     if self.age \n-%3E\n+%3C\n = 4:%0A           \n",
+            "lines": "41"
+        },
+        {
+            "label": "2025-09-27_16-45-25",
+            "content": "@@ -184,32 +184,59 @@\n : int) -%3E None:%0A\n+        self.age += amount%0A\n         if self.\n",
+            "lines": "41"
+        },
+        {
+            "label": "2025-09-27_16-45-42",
+            "content": "@@ -196,35 +196,8 @@\n ne:%0A\n-        self.age += amount%0A\n     \n",
+            "lines": "40"
+        },
+        {
+            "label": "2025-09-27_16-45-51",
+            "content": "@@ -310,16 +310,28 @@\n         \n+self.age = 4\n %0A       \n",
+            "lines": "41"
+        },
+        {
+            "label": "2025-09-27_16-47-32",
+            "content": "@@ -314,20 +314,8 @@\n     \n-self.age = 4\n %0A   \n",
+            "lines": "41"
+        },
+        {
+            "label": "2025-09-27_16-47-37",
+            "content": "@@ -302,44 +302,8 @@\n u%22)%0A\n-        elif self.age + amount %3E 4:%0A\n     \n@@ -318,16 +318,20 @@\n self.age\n+ = 4\n %0A       \n",
+            "lines": "41"
+        },
+        {
+            "label": "2025-09-27_16-51-11",
+            "content": "@@ -355,16 +355,61 @@\n elf.age%0A\n+        else:%0A            self.age += amount%0A\n     def \n",
+            "lines": "42"
+        },
+        {
+            "label": "2025-09-27_16-51-34",
+            "content": "@@ -350,16 +350,16 @@\n     \n-return 4\n+self.age\n %0A   \n",
+            "lines": "40"
+        },
+        {
+            "label": "2025-09-27_16-54-02",
+            "content": "@@ -298,16 +298,73 @@\n orreu%22)%0A\n+        elif self.age + amount %3E 4:%0A            return 4%0A\n     def \n",
+            "lines": "40"
+        },
+        {
+            "label": "2025-09-27_16-55-48",
+            "content": "@@ -302,84 +302,8 @@\n u%22)%0A\n-    def growMax(self) -%3E int:%0A        if self.age %3E 4:%0A            return 4%0A\n     \n",
+            "lines": "38"
+        },
+        {
+            "label": "2025-09-27_16-56-44",
+            "content": "@@ -374,33 +374,16 @@\n eturn 4%0A\n-        return 4%0A\n     def \n",
+            "lines": "41"
+        },
+        {
+            "label": "2025-09-27_16-57-12",
+            "content": "@@ -1106,35 +1106,8 @@\n nt)%0A\n-            animal.growMax%0A\n     \n",
+            "lines": "42"
+        },
+        {
+            "label": "2025-09-27_16-57-59",
+            "content": "@@ -365,26 +365,39 @@\n         \n-self.age =\n+return 4%0A        return\n  4%0A    d\n",
+            "lines": "43"
+        },
+        {
+            "label": "2025-09-27_16-58-31",
+            "content": "@@ -382,25 +382,8 @@\n = 4%0A\n-        return 4%0A\n     \n",
+            "lines": "42"
+        },
+        {
+            "label": "2025-09-27_16-58-49",
+            "content": "@@ -1007,35 +1007,8 @@\n al)%0A\n-            animal.growMax%0A\n     \n@@ -1118,16 +1118,30 @@\n         \n+animal.growMax\n %0A       \n",
+            "lines": "43"
+        },
+        {
+            "label": "2025-09-27_17-00-50",
+            "content": "@@ -1003,16 +1003,43 @@\n animal)%0A\n+            animal.growMax%0A\n         \n@@ -1149,24 +1149,8 @@\n     \n-animal.growMax()\n %0A   \n@@ -1207,18 +1207,16 @@\n akeSound\n-()\n %0A    %0Ama\n",
+            "lines": "44"
+        },
+        {
+            "label": "2025-09-27_17-01-57",
+            "content": "@@ -536,52 +536,8 @@\n P%22)%0A\n-        else:%0A            print(self.sound)%0A\n     \n",
+            "lines": "43"
+        },
+        {
+            "label": "2025-09-27_17-03-35",
+            "content": "class Animal:\n    def __init__(self, species: str, sound: str):\n        self.species: str = species\n        self.sound: str = sound\n        self.age: int = 0\n    def grow(self, amount: int) -> None:\n        self.age += amount\n        if self.age >= 4:\n            print(f\"warning: {self.species} morreu\")\n    def growMax(self) -> int:\n        if self.age > 4:\n            self.age = 4\n        return 4\n    def makeSound(self) -> None:\n        if self.age == 0:\n            print(\"---\")\n        elif self.age >= 4:\n            print(\"RIP\")\n        else:\n            print(self.sound)\n    def __str__(self):\n        return f\"{self.species}:{self.age}:{self.sound}\"\n    \ndef main():\n    animal = Animal(\"\", \"\")\n    while True:\n        line = input()\n        print(\"$\" + line)\n        args: list[str] = line.split(\" \")\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"init\":\n            species = args[1]\n            sound = args[2]\n            animal = Animal(species, sound)\n        elif args[0] == \"show\":\n            print(animal)\n        elif args[0] == \"grow\":\n            amount: int = int(args[1])\n            animal.grow(amount)\n            animal.growMax()\n        elif args[0] == \"noise\":\n            animal.makeSound()\n    \nmain()",
+            "lines": "45"
+        }
+    ]
+}

@@ -16,6 +16,10 @@ tasks:
     alone:6, study:120}'
   animal: '{rate:100, iagen:utilizei_chatgpt_por_onde_consegui_encontrar_erros_de_sintaxe_como_os_parenteses_aps_declarar_um_metodo,
     alone:8, study:200}'
+  carro: '{rate:100, human:pedi_ajuda_do_monitor_e_de_amigos_para_resolver_problemas_de_logica,
+    iagen:utilizei_chatgpt_para_indicar_erros_de_sintaxe_e_logica, alone:7, study:180}'
+  calculadora: '{rate:100, iagen:utilizei_chatgpt_para_indicar_erros_de_sintaxe_e_logica,
+    alone:8, study:180}'
   enxugar: '{rate:100, iagen:utilizei_chatgpt_para_me_explicar_algumas_linhas_do_codigo_e_alguns_erros_de_digitaco__como_os_parenteses_apos_declarar_um_metodo_,
     alone:8, study:180}'
 flags:
